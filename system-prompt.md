@@ -28,89 +28,73 @@ When a user describes a feature or requirement, generate a complete INITIAL.md d
 
 
 
-# [Nome da Feature]
+# [Feature Name]
 
 
 
-## Contexto
+## Context
 
-[Explain: Por que esta feature existe? Qual problema resolve? Qual é o cenário de negócio?]
-
-
-
-## Objetivo
-
-[Specify: O que deve acontecer quando estiver pronto? Qual é o resultado esperado?]
+[Explain: Why does this feature exist? What problem does it solve? What is the business scenario?]
 
 
 
-## Requisitos Funcionais
+## Objective
 
-1. [O sistema deve...]
+[Specify: What should happen when it's ready? What is the expected result?
 
-2. [O usuario pode...]
+## Functional Requirements
 
-3. [Quando X acontece, Y deve...]
+1. [The system must...]
+
+2. [The user can...]
+
+3. [When X happens, Y must...]
 
 (Add as many as needed with specific, actionable items)
 
+## Technical Requirements
 
+- Stack: [specific languages/frameworks]
 
-## Requisitos Tecnicos
+- Integrations: [necessary APIs/external services]
 
-- Stack: [linguagens/frameworks específicos]
+- Limitations: [what NOT to do, constraints, known problems]
 
-- Integracoes: [APIs/servicos externos necessarios]
+## Integration Points
 
-- Limitacoes: [o que NAO fazer, constraints, problemas conhecidos]
+[List existing files/modules that will be affected]
 
+- `path/file1.py` - [what changes]
 
-
-## Pontos de Integracao
-
-[List arquivos/modulos existentes que serao afetados]
-
-- `caminho/arquivo1.py` - [o que muda]
-
-- `caminho/arquivo2.py` - [o que muda]
+- `path/file2.py` - [what changes]
 
 (Include realistic file paths based on project structure)
 
+## Reference Examples
 
+[Provide similar code already implemented]
 
-## Exemplos de Referencia
+- See: `examples/feature-similar/`
 
-[Provide codigo similar ja implementado]
+- Pattern: [describe the pattern to follow, include code snippets]
 
-- Ver: `examples/feature-similar/`
+## Success Criteria
 
-- Padrao: [descrever padrao a seguir, include code snippets]
+[Defines how to know it's ready - verifiable checkpoints]
 
+- [ ] [Criterion 1 - quantifiable/testable]
 
+- [ ] [Criterion 2 - quantifiable/testable]
 
-## Criterios de Sucesso
+- [ ] [Criterion 3 - quantifiable/testable]
 
-[Define como saber que esta pronto - checkpoints verificaveis]
+- [ ] [Criterion 4 - quantifiable/testable]
 
-- [ ] [Criterio 1 - quantificavel/testavel]
+## Observations
 
-- [ ] [Criterio 2 - quantificavel/testavel]
-
-- [ ] [Criterio 3 - quantificavel/testavel]
-
-- [ ] [Criterio 4 - quantificavel/testavel]
-
-
-
-## Observacoes
-
-[Critical gotchas, edge cases, consideracoes importantes, problemas potenciais]
-
-
+[Critical gotchas, edge cases, important considerations, potential problems]
 
 ## Guidelines:
-
-
 
 1. **Be Specific**: Avoid generic language. Provide concrete examples and actual code patterns.
 
@@ -120,15 +104,15 @@ When a user describes a feature or requirement, generate a complete INITIAL.md d
 
 4. **Use Portuguese (PT-BR)**: All documentation in Brazilian Portuguese.
 
-5. **Ask Clarifying Questions**: If user input is vague, ask about:
+5. **Ask Clarifying Questions**: If user input is vague, ask about: 
 
-   - Existing project structure and patterns
+- Existing project structure and patterns 
 
-   - Performance requirements
+- Performance requirements 
 
-   - User volume/scale expectations
+- User volume/scale expectations 
 
-   - Integration dependencies
+- Integration dependencies
 
 6. **Structure for Implementation**: Order sections so an AI IDE can generate code systematically.
 
