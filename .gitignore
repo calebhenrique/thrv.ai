@@ -1,41 +1,57 @@
-# Ignore build output
-*.gem
-pkg/
-
-# Ignore coverage reports
-coverage/
-spec/reports/
-
-# Ignore yard documentation
-.yardoc
-_yardoc/
-doc/
-
-# Ignore temp and log files
-tmp/
-log/
-
-# Ignore system files
+# OS Files
 .DS_Store
+Thumbs.db
 *.swp
-
-# Ignore bundler and gem dependencies
-Gemfile.lock
-
-# Ignore test databases
-*.sqlite3
-*.sqlite
-
-# Ignore Byebug command history file
-.byebug_history
-
-# Ignore vim swap files
 *.swo
-*.swp
+*~
 
-# Ignore dotenv environment files (if used)
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment
 .env
-.env.*
+.env.local
+.env.*.local
 
-# Ignore pry history files
-.pry_history
+# Build/Dist
+/dist/
+/build/
+/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Temp files
+/tmp/
+/temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Lock files (optional - usually commit these)
+# package-lock.json
+# yarn.lock
+
+# Credentials/Secrets
+.credentials
+.secrets
+*.pem
+*.key
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
